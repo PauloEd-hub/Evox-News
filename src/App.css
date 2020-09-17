@@ -1,38 +1,188 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background:#E5E5E5; 
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img{
+    width: 244px;
+    height: 128px;
+    left: 162px;
+    top: 252px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#image-evox{
+    width: 29px;
+    height: 27.06px;
+    position: absolute;
+    left: 13.12%;
+    right: 84.86%;
+    top: 5.61%;
+    bottom: 91.09%;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.App-link {
-  color: #61dafb;
+
+#evox-news{
+    position: absolute;
+    width: 168px;
+    height: 47px;
+    left: 193px;
+    top: 46px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 46px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#image-evox-div {
+
+    display: flex;
+    display: inline;
+    position: relative;
+    left: 15%;
+    top: 30%;
 }
+
+/* Config Input */
+.kk {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kk svg{
+    z-index: 2;
+    position: absolute;
+    left: 17%;
+    top: -5px;
+}
+
+.kk input {
+    margin-top: -20px;
+    border-radius: 5px;
+    width: 70%;
+    height: 56px;
+    z-index: 1;
+    margin-bottom: 20px;
+    padding-left: 80px;
+    font-size: 17px;
+    border: none;
+
+}
+
+#image-evox {
+    width: 201px;
+    height: 47px;
+}
+
+header#main-header{
+    position: relative;
+    width: 100%;
+    height: 146px;
+    left: 0px;
+    top: 0px;
+    background: #3688D3;
+
+    z-index: 0;
+}
+
+/* Config Filter */
+
+#filter button {
+    border: none;
+    color: #969CB2;
+    font-size: 16px;
+    position: relative;
+    left: 17%;
+    background-color: #E5E5E5;
+}
+
+#filter button img{
+    margin-left: 10px;
+    width: 10px;
+    height: 5px;
+}
+
+#filter button:hover {
+    background-color: rgba(150, 156, 178, 0.4);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Config News */
+
+.container-news {
+    position: relative;
+    background-color: white;
+    margin: 20px 100px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    height: 165px;
+}
+
+#main-div {
+    display: inline;
+}
+
+.titlenews-class {
+    width: 70%;
+    margin-top: 30px;
+}
+
+.titlenews-class p {
+    color: #363F5F;
+    font-size: 18px;
+}
+
+.source-name {
+    background-color: rgba(150, 156, 178, 0.4);
+    border-radius: 3px;
+    padding: 3px 5px;
+    width: max-content;
+    margin-top: 5px;
+    float: left;
+}
+
+.source-name p{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(54, 63, 95, 0.79);
+    line-height: 18px;
+}
+.data {
+    position: absolute;
+    right: 50px;
+    top: 45%;
+}
+
+.data p {
+    font-size: 16px;
+    color: #969CB3;
+}
+
+
+.imagenews-class {
+    float: left;
+
+}
+
+.imagenews-class img {
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+
