@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Evox-News/static/css/main.11ec1c27.chunk.css",
+    "main.js": "/Evox-News/static/js/main.33d25550.chunk.js",
+    "main.js.map": "/Evox-News/static/js/main.33d25550.chunk.js.map",
+    "runtime-main.js": "/Evox-News/static/js/runtime-main.b21a8c33.js",
+    "runtime-main.js.map": "/Evox-News/static/js/runtime-main.b21a8c33.js.map",
+    "static/js/2.b439b675.chunk.js": "/Evox-News/static/js/2.b439b675.chunk.js",
+    "static/js/2.b439b675.chunk.js.map": "/Evox-News/static/js/2.b439b675.chunk.js.map",
+    "index.html": "/Evox-News/index.html",
+    "precache-manifest.fcdf96b441853cafa4aa9279ae1b16ad.js": "/Evox-News/precache-manifest.fcdf96b441853cafa4aa9279ae1b16ad.js",
+    "service-worker.js": "/Evox-News/service-worker.js",
+    "static/css/main.11ec1c27.chunk.css.map": "/Evox-News/static/css/main.11ec1c27.chunk.css.map",
+    "static/js/2.b439b675.chunk.js.LICENSE.txt": "/Evox-News/static/js/2.b439b675.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b21a8c33.js",
+    "static/js/2.b439b675.chunk.js",
+    "static/css/main.11ec1c27.chunk.css",
+    "static/js/main.33d25550.chunk.js"
+  ]
+}
